@@ -16,9 +16,21 @@ header {
 }
 
 .logo {
-    font-size: 40px;
     margin-left: 20%;
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    height: 50px; 
+  }
+  
+  .logo h1 {
+    font-size: 2.5vw; 
+    margin-left: 10px;
+    padding-bottom: 2vw; 
+    white-space: nowrap;
+  }
 
 nav {
     display: flex;
@@ -98,6 +110,16 @@ h3{
     font-weight: 500;
 }
 
+ul {
+    padding-left: 50px; 
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  
 
 .eventcontainer{
     display: flex;
@@ -157,16 +179,6 @@ h3{
     text-align: left;
     padding-bottom: 20px;
 }
-
-p2{
-    padding-left: 50px;
-    font-size: 30px;
-}
-
-
-
-
-
 
 .container {
     display: flex;
