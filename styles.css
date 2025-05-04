@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,6 +205,7 @@ footer {
     width: 100%; 
     
 }
+
 .footer-policies{
     text-align: left;
 }
@@ -260,3 +262,132 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .logo {
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .logo img {
+      height: 40px;
+    }
+  
+    .logo h1 {
+      font-size: 6vw;
+      padding-bottom: 0;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0;
+    }
+  
+    nav li:last-child {
+      margin-right: 0;
+    }
+  
+    .btn, .btn2 {
+      width: 80%;
+      text-align: center;
+      padding: 12px;
+    }
+  
+    .btn3 {
+      font-size: 24px;
+    }
+  
+    .eventlist {
+      height: auto;
+      padding: 20px 10px;
+    }
+  
+    .eventcontainer {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .videos {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 10px;
+    }
+  
+    .gallery-container {
+      padding: 10px;
+    }
+  
+    .gallery {
+      gap: 20px;
+      padding: 0 10px;
+    }
+  
+    .leaderboard {
+      height: auto;
+      padding: 40px 10px;
+    }
+  
+    .leaderboardcontain {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    ul li {
+      font-size: 18px;
+    }
+  
+    .container {
+      flex-direction: column;
+      padding: 20px 10px;
+      height: auto;
+    }
+  
+    .column {
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    footer {
+      height: auto;
+      padding: 5px;
+    }
+  
+    .footer-socials {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .showreel-container,
+    .about-container,
+    .grid-container {
+      width: 100%;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  }
+  
